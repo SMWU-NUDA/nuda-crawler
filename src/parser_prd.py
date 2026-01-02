@@ -49,7 +49,7 @@ def extract_products_from_html(html):
             results.append({
                 "brand": brand,
                 "name": name,
-                "link": "https://www.oliveyoung.co.kr" + link,
+                "link": link,
                 "image": image,
                 "raw_price": raw_price,
                 "sale_price": sale_price,
